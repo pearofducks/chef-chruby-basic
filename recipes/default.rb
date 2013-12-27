@@ -30,8 +30,8 @@ end
 
 include_recipe 'ark'
 
-ark 'ruby_install' do
-  url "https://github.com/postmodern/ruby-install/archive/v#{node['ruby_install']['version']}.tar.gz"
-  checksum node['ruby_install']['checksum']
+ark 'chruby' do
+  url "https://github.com/postmodern/chruby/archive/v#{node['chruby']['version']}.tar.gz"
+  checksum node['chruby']['checksum']
   action :install_with_make
 end
