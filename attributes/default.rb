@@ -20,7 +20,7 @@
 #
 
 default['ruby_install']['version'] = '0.3.4'
-default['ruby_install']['checksum'] = 'dab9dd3ef8ab8a2bad1b50af9f06f586'
+default['ruby_install']['checksum'] = '10929e1b778eb40eacd8bcb6f11cf53d8e686702b55ef7039e0d1cd3059977e6'
 
 # Install rubies into /opt/rubies as expected by Chruby.
 default['ruby_install']['default_ruby_base_path'] = '/opt/rubies'
